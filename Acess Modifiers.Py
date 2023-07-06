@@ -1,0 +1,16 @@
+#Creating Class for Fan
+
+class Fan:
+    #creating Constants
+    SLOW = 1
+    MEDIUM = 2
+    FAST = 3
+    
+    def __init__(self, speed=1, radius=5, color='blue', on=False):
+        self.__speed = speed
+        self.__radius = radius
+        self.__color = color
+        self.__on = on
+        
+        
+        
