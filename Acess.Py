@@ -49,7 +49,7 @@ class Car:
     def accelerate(self):
         self.__speed += 5
         
-    def brale(self):
+    def brake(self):
         self.__speed -= 5
         
     def getSpeed(self):
