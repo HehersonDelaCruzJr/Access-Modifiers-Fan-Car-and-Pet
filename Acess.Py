@@ -38,4 +38,26 @@ class Fan:
         
     
         
+# Creating Class for Car
+
+class Car:
+    def __init__(self, yearModel, make):
+        self.__yearModel = yearModel
+        self.__make = make
+        self.__speed = 0
+        
+    def accelerate(self):
+        self.__speed += 5
+        
+    def brale(self):
+        self.__speed -= 5
+        
+    def getSpeed(self):
+        return self.__speed
+    
+    def setSpeed(self, speedLevel):
+        if speedLevel >= 1 and speedLevel <= 7:
+            self.speed = speedLevel
+            
+    
         
