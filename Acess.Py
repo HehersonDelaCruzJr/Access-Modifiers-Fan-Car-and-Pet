@@ -82,7 +82,7 @@ class Pet:
     def setAnimalType(self, animalType):
         self.__animalType = animalType
         
-    def getAnimal(self):
+    def getAnimalAge(self):
         return self.__animalAge
     
     def setAge(self, age):
