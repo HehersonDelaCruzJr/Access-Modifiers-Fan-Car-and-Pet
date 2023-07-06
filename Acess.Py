@@ -60,4 +60,32 @@ class Car:
             self.speed = speedLevel
             
     
+
+# Creating Class for Pet
+
+class Pet:
+    def __init__(self):
+        self.__name = ""
+        self.__animalType = ""
+        self.__animalAge = 0
         
+        
+    def getName(self):
+        return self.__name
+
+    def setName(self, name):
+        self.__name = name
+    
+    def getAnimalType(self):
+        return self.__animalType
+    
+    def setAnimalType(self, animalType):
+        self.__animalType = animalType
+        
+    def getAnimal(self):
+        return self.__animalAge
+    
+    def setAge(self, age):
+        self.__animalAge = age
+        
+    
